@@ -7,11 +7,11 @@ function displayBetResult(){
     switch(randomInt){
         case 0:
             // first team
-            textToShow = "First Team";
+            textToShow = "Top Team";
             break;
         case 1:
             // second team
-            textToShow = "Second Team";
+            textToShow = "Bottom Team";
             break;
         default:
             //draw
